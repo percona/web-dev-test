@@ -1,0 +1,6 @@
+*.tmp
+*.swp
+*.swp
+*/vendor/
+*/app/cache/*
+*/app/logs/*
