@@ -15,7 +15,7 @@ You must use PHP and Symfony, but otherwise you are free to use whatever you wan
 For example, if you're more comfortable with Backbone.js, you can use it.  What matters is the product
 you deliver.  We grade results based on:
 
-1. Overall functionality and useabliity (including reliability, efficienciy, etc.)
+1. Overall functionality and usability (including reliability, efficiency, etc.)
 2. Code design (including style, organization, testing, etc.)
 3. UX/UI design (no fancy graphics required though)
 4. Delivery time (how fast you finish)
@@ -23,7 +23,7 @@ you deliver.  We grade results based on:
 This task should take about 20-30 hours (for which you will be paid).
 
 The rest of this readme helps you get set up and running.  A lot of Symfony scaffolding has already been
-created for you.  You will need to spend some time at the start learning Symfony basics, buth most of your
+created for you.  You will need to spend some time at the start learning Symfony basics, but most of your
 time should be spent implementing your best ideas for the agent log browser page.
 
 Since this is a test, we can't give you answers about Symfony or other technologies, but if some part
@@ -76,7 +76,7 @@ You can symlink `/var/www/cloud.percona.dev/` to `web-dev/front-end-challenge` b
 has a `web/` directory.  Then, in many distros, you copy the sample Apache vhost conf to
 `/etc/apache2/sites-available/` (give it a different name if you want), symlink to it in
 `/etc/apache2/sites-enabled/` and reload Apache.  If everything works, you should be able to access
-`http://cloud.percona.dev/` from your web broswer and get a "no route found" error from Symfony.
+`http://cloud.percona.dev/` from your web browser and get a "no route found" error from Symfony.
 
 3) MySQL
 --------
@@ -90,15 +90,15 @@ Load the sample data:
 
     mysql percona < setup/data.sql
     
-The `percona` table should have two talbes: `agents` and `agent_log`.  Familiarize yourself with their
+The `percona` table should have two tables: `agents` and `agent_log`.  Familiarize yourself with their
 structures.
 
 4) Learn Symfony basics
 -----------------------
 
-Symfony is a mature and therefore slightly complex web famework.  It has many "parts" and convetions
+Symfony is a mature and therefore slightly complex web framework.  It has many "parts" and conventions
 that you must learn.  Therefore, you should read the [Symfony book](http://symfony.com/doc/2.3/book/index.html).
-You can skip chatper "Databases and Propel", and chapters "HTTP Cache" and later.  The first 8 chapters
+You can skip chapter "Databases and Propel", and chapters "HTTP Cache" and later.  The first 8 chapters
 are the most important.
 
 While you're reading, remember that a lot of scaffolding has already be created and configured for you.
@@ -113,7 +113,7 @@ everything ties together.  Start coding and improving that page when you're read
 5) Hints and ideas
 ------------------
 
-This task is intetionally vauge and open-ended because every developer is eventually expected to become
+This task is intentionally vauge and open-ended because every developer is eventually expected to become
 autonomous, able to deliver a good product with minimal input from users (and also able to implement
 specific user feedback when available), taking into account many considerations: UX/UI, code
 maintainability and testability, response time (web page, database, etc.), etc.  So there's no right or
@@ -132,5 +132,5 @@ Nonetheless, here are some things to think about:
 6) When you're done
 -------------------
 
-When you're done, please tarball your repo and email it to daniel@percona.com includingi anything you
+When you're done, please tarball your repo and email it to daniel@percona.com including anything you
 would like us to know or to look at specifically.  Thanks in advance for your time and work!
