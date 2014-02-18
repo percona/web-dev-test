@@ -1,0 +1,17 @@
+{% extends '::base.html.twig' %}
+
+{% block body %}
+    {% for entry in log %}
+        <div class="row">
+            <div class="col-xs-1">
+                {{ entry.level }}
+            </div>
+            <div class="col-xs-3">
+                {{ entry.service }}
+            </div>
+            <div class="col-xs-8">
+                {{ entry.msg }}
+            </div>
+        </div>
+    {% endfor %}
+{% endblock %}

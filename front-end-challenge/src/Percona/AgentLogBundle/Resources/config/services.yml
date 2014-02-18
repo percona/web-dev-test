@@ -1,0 +1,7 @@
+parameters:
+#    percona_agent_log.example.class: Percona\AgentLogBundle\Example
+
+services:
+#    percona_agent_log.example:
+#        class: %percona_agent_log.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

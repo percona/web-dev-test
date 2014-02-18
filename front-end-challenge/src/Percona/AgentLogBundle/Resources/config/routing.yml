@@ -1,0 +1,3 @@
+percona_agent_log_index:
+    pattern:  /agents/{uuid}/log
+    defaults: { _controller: PerconaAgentLogBundle:Default:index }

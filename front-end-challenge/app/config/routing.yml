@@ -1,0 +1,4 @@
+percona_agent_log:
+    resource: "@PerconaAgentLogBundle/Resources/config/routing.yml"
+    prefix:   /
+
