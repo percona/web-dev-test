@@ -50,8 +50,7 @@ have problems.  This is covered in the next section.
 2) Symfony
 ----------
 
-Clone `https://github.com/percona/web-dev`.  The Symfony app is in the `front-end-challenge/` directory.
-Change to this directory and install [Composer](https://getcomposer.org/) by running:
+The Symfony app is in this directory, `front-end-challenge/`.  Start by installing [Composer](https://getcomposer.org/):
 
     curl -s https://getcomposer.org/installer | php
 
@@ -132,5 +131,5 @@ Nonetheless, here are some things to think about:
 6) When you're done
 -------------------
 
-When you're done, please tarball your repo and email it to daniel@percona.com including anything you
+When you're done, please tarball your app and email it to daniel@percona.com including anything you
 would like us to know or to look at specifically.  Thanks in advance for your time and work!
