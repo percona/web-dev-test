@@ -1,69 +1,80 @@
-This sample REST API uses node to run a local server with a few sample routes. It requires Node.js
+Percona Front-End Developer Challenge
+=====================================
 
+Percona Cloud Tools uses PHP, [Symfony](http://symfony.com/), and [AngularJS](http://angularjs.org/)
+for the front end web app (https://cloud.percona.com).
 
-1. Installing Node.js
+This sample REST API uses [Node.js](http://nodejs.org/) to run a local server with a few sample routes.
 
-Go to http://nodejs.org, and click the Install button.
+Using this API, create an angular.js app that:
+* queries the API to fetch the data
+* creates graphs (can use any library of choice) with the sample data
+* creates a chart selector to display only graphs for the specific chart or all charts
+* create a date selector to display graphs for the specific dates
+Also, be sure the test your code.
 
-Run the installer that you just downloaded. When the installer completes, a message indicates that Node was installed at /usr/local/bin/node and npm was installed at /usr/local/bin/npm.
+We grade results based on:
 
-At this point node.js is ready to use.
+1. Overall functionality and usability (including reliability, efficiency, etc.)
+2. Code design (including style, organization, testing, etc.)
+3. UX/UI design (no fancy graphics required though)
 
+This task should take about 10 hours or less for an expert JS/AngularJS developer.  You will be paid for you time.
 
-2. Get the application
+The rest of this readme helps you get set up and running.  Since this is a test, we can't give you answers,
+but if some part of the task, this readme, the sample code or data, etc. is not clear, then please email daniel@percona.com.
 
-Create a folder for the test:
-$ mkdir ~\percona-test
-$ cd ~\percona-test
+1. Install Node.js
+------------------
 
-Clone or download the zip from this repo: https://github.com/kamuslhv/percona-js-api-test/
-Unzip to ~\percona-test\ or mv percona-js-api-test ~\percona-test
+As an expert JavaScript developer, we trust that you are already familar with (and probably already running) Node.js.  If not, go to http://nodejs.org to learn how to install it.
 
-
-3. Set up the application
-$ cd ~\percona-test\percona-js-api-test
+2. Set up the application
+-------------------------
 
 Run to install dependencies:
+
+```sh
 $ npm install
+```
 
-
-4. Start the server
+3. Start the server
+-------------------
 
 Run to start the server:
+
+```sh
 $ node app/server.js
 Listening on port 3000...
+```
 
+4. Test the API
+---------------
 
-5. Test API
+Browse to http://localhost:3000/charts.  You should get a sample JSON response.
 
-Browse to http://localhost:3000/charts
+All REST routes are GET (no POST, PUT, etc are implemented). Run the following curl commands from the shell:
 
-You should get a sample REST response.
-
-
-6. API methods examples
-
-All implemented methods are GET (no POST, PUT, etc are implemented). You can run the following curl commands from the shell (rememeber to have the server running).
-
-/charts
-$ curl -X GET http://localhost:3000/charts
+`$ curl -X GET http://localhost:3000/charts`
 Returns a list of available charts
 
-/charts:id
-$ curl -X GET http://localhost:3000/charts/3
+`$ curl -X GET http://localhost:3000/charts/3`
 id : int
 Returns info about the specific chart id
 
-/charts:id/graphs
-$ curl -X GET http://localhost:3000/charts/3/graphs
+`$ curl -X GET http://localhost:3000/charts/3/graphs`
 Returns an array of series for each day (if data is available)
 
-/charts/:id/graphs/:date
-$ curl -X GET http://localhost:3000/charts/3/graphs/2013-02-01
-date :  date, YYYY-MM-DD
+`$ curl -X GET http://localhost:3000/charts/3/graphs/2013-02-01`
 Returns an array of data for the specific date
 
+5. Observations
+---------------
 
-7. Observations
+Only the first days of each month contains data (01 to 07). The data for each month is the same. Don't worry, it's just some sample data for testing purposes.
 
-Only the first days of each month contains data (01 to 07). The data for each month is the same. Don't worry, it's just some sample data for testing purposes :)
+6. When you're done
+-------------------
+
+When you're done, please tarball your app and email it to daniel@percona.com including anything you
+would like us to know or to look at specifically.  Thanks in advance for your time and work!
