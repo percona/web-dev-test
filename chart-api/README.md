@@ -59,7 +59,6 @@ All REST routes are GET (no POST, PUT, etc are implemented). Run the following c
 Returns a list of available charts
 
 `$ curl -X GET http://localhost:3000/charts/3`
-id : int
 Returns info about the specific chart id
 
 `$ curl -X GET http://localhost:3000/charts/3/graphs`
