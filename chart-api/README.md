@@ -1,12 +1,11 @@
-Percona Front-End Developer Challenge
-=====================================
+Percona AngularJS Developer Test
+================================
 
-Percona Cloud Tools uses PHP, [Symfony](http://symfony.com/), and [AngularJS](http://angularjs.org/)
-for the front end web app (https://cloud.percona.com).
+Percona Cloud Tools uses [AngularJS](http://angularjs.org/) for the front end web app (https://cloud.percona.com).
 
-This sample REST API uses [Node.js](http://nodejs.org/) to run a local server with a few sample routes.
+This repo contains a small REST API that uses [Node.js](http://nodejs.org/) to run a local server
+with a few sample routes.  Using this API, create an angular.js app that lets the user...
 
-Using this API, create an angular.js app that lets the user...
 * select one or more charts to show
 * select an aggregate function (mix, avg, or max) for each chart (applied to the series data for each day)
 * select a single day to show without aggregation
@@ -16,6 +15,7 @@ Those are only the basic user requirements.  You can do more if time permits.  T
 are not specified because that's part of the test: to see what and how you implement as technical solutions
 for these user requirements.  We grade results based on:
 
+* Effective use of AngularJS (e.g. directives)
 * Overall functionality and usability (including reliability, efficiency, etc.)
 * Code design (including style, organization, testing, etc.)
 * UX/UI design (no fancy graphics required though)
