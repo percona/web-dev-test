@@ -27,8 +27,7 @@ created for you.  You will need to spend some time at the start learning Symfony
 time should be spent implementing your best ideas for the agent log browser page.
 
 Since this is a test, we can't give you answers about Symfony or other technologies, but if some part
-of the task, this readme, the sample code or data, etc. is not clear, then please email daniel@percona.com
-or ismael.ambrosi@percona.com.
+of the task, this readme, the sample code or data, etc. is not clear, then please email daniel@percona.com.
 
 1) Development environment
 --------------------------
