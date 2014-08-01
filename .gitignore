@@ -1,6 +1,7 @@
 *.tmp
 *.swp
 *.swp
-*/vendor/
+vendor/
 */app/cache/*
 */app/logs/*
+node_modules/
