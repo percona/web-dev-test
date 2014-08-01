@@ -6,18 +6,19 @@ for the front end web app (https://cloud.percona.com).
 
 This sample REST API uses [Node.js](http://nodejs.org/) to run a local server with a few sample routes.
 
-Using this API, create an angular.js app that:
-* queries the API to fetch the data
-* creates graphs (can use any library of choice) with the sample data
-* creates a chart selector to display only graphs for the specific chart or all charts
-* create a date selector to display graphs for the specific dates
-Also, be sure the test your code.
+Using this API, create an angular.js app that lets the user...
+* select one or more charts to show
+* select an aggregate function (mix, avg, or max) for each chart (applied to the series data for each day)
+* select a single day to show without aggregation
+* change the chart style from line to bar
 
-We grade results based on:
+Those are only the basic user requirements.  You can do more if time permits.  The technical requirements
+are not specified because that's part of the test: to see what and how you implemention solutions for these
+user requirements.  We grade results based on:
 
-1. Overall functionality and usability (including reliability, efficiency, etc.)
-2. Code design (including style, organization, testing, etc.)
-3. UX/UI design (no fancy graphics required though)
+* Overall functionality and usability (including reliability, efficiency, etc.)
+* Code design (including style, organization, testing, etc.)
+* UX/UI design (no fancy graphics required though)
 
 This task should take about 10 hours or less for an expert JS/AngularJS developer.  You will be paid for you time.
 
@@ -61,10 +62,10 @@ Returns a list of available charts
 `$ curl -X GET http://localhost:3000/charts/3`
 Returns info about the specific chart id
 
-`$ curl -X GET http://localhost:3000/charts/3/graphs`
+`$ curl -X GET http://localhost:3000/charts/3/data`
 Returns an array of series for each day (if data is available)
 
-`$ curl -X GET http://localhost:3000/charts/3/graphs/2013-02-01`
+`$ curl -X GET http://localhost:3000/charts/3/data/2013-02-01`
 Returns an array of data for the specific date
 
 5. Observations
