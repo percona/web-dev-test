@@ -13,8 +13,8 @@ Using this API, create an angular.js app that lets the user...
 * change the chart style from line to bar
 
 Those are only the basic user requirements.  You can do more if time permits.  The technical requirements
-are not specified because that's part of the test: to see what and how you implemention solutions for these
-user requirements.  We grade results based on:
+are not specified because that's part of the test: to see what and how you implement as technical solutions
+for these user requirements.  We grade results based on:
 
 * Overall functionality and usability (including reliability, efficiency, etc.)
 * Code design (including style, organization, testing, etc.)
