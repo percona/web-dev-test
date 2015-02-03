@@ -16,7 +16,7 @@ script (`percona-agent`) related to the PID file. We grade results based on:
 3. Solution (how you propose to solve the problem)
 4. Delivery time (how fast you finish)
 
-This task should take less than 2 hours. You will be paid for your time.
+This task should take less than 2 hours.
 
 Since this is a test, we can't give you answers, but if some part of the task, this readme,
 or the starter code is not clear, then please email us.
