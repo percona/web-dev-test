@@ -25,9 +25,7 @@ The challenge is small and specific but not trivial. We grade results based on:
 4. Stability, reliability
 5. Delivery time (how fast you finish)
 
-This task should take less than 20 hours once you know Go. You will be paid for your time.
-To be specific, we will pay for your time to do this challenge, not to learn Go because
-learning Go can take a few days or a few weeks.
+This task should take less than 20 hours once you know Go.
 
 Since this is a test, we can't give you answers, but if some part of the task, this readme,
 or the starter code is not clear, then please email us.
