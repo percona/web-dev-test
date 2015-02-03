@@ -20,7 +20,7 @@ for these user requirements.  We grade results based on:
 * Code design (including style, organization, testing, etc.)
 * UX/UI design (no fancy graphics required though)
 
-This task should take about 10 hours or less for an expert JS/AngularJS developer.  You will be paid for you time.
+This task should take about 10 hours or less for an expert JS/AngularJS developer.
 
 The rest of this readme helps you get set up and running.  Since this is a test, we can't give you answers,
 but if some part of the task, this readme, the sample code or data, etc. is not clear, then please email daniel@percona.com.
