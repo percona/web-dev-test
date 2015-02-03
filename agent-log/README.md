@@ -20,7 +20,7 @@ you deliver.  We grade results based on:
 3. UX/UI design (no fancy graphics required though)
 4. Delivery time (how fast you finish)
 
-This task should take about 20-30 hours (for which you will be paid).
+This task should take about 20-30 hours.
 
 The rest of this readme helps you get set up and running.  A lot of Symfony scaffolding has already been
 created for you.  You will need to spend some time at the start learning Symfony basics, but most of your
